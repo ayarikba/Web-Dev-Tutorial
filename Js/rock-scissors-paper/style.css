@@ -1,0 +1,29 @@
+#rock {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: red;
+}
+
+#scissors{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: blue;
+}
+
+#paper{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: yellow;
+}
+
+#reset{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}

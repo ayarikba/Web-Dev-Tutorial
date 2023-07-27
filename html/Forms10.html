@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action= "process.php" method="get">
+    <label for="name" aria-placeholder="Name">Name</label>
+    <br>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <input type="text" id="email" name="email">
+    <br>
+    <label for="password">Password</label>
+    <br>
+    <input type="password" id="password" name="password">
+    <br>
+    <label for="date">Date</label>
+    <br>
+    <input type="date">
+    <br>
+    <label for="gender">Gender</label>
+    <br>
+
+    Male
+    <input type="radio" id="gender" name="gender" value="Male">
+    Female
+    <input type="radio" id="gender" name="gender" value="Female">
+    <br>
+    Hobbies <br>
+    Technology
+    <input type="checkbox" name="tech" id="tech" value="tech">
+    Music
+    <input type="checkbox" name="music" id="music" value="music">
+    <br>
+    Degree <br>
+    <select name="degree" id="degree">
+        <option value="bachelor">Lisans</option>
+        <option value="College">Lise</option>    
+        <option value="Phd">Phd</option>    
+    </select>
+    <br>
+    <textarea name="message" id="message" aria-placeholder="Your message">
+    </textarea>
+    <br>
+    <input type="reset" value="Sıfırla">
+    <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>

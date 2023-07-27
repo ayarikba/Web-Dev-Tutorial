@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pong Game</title>
+  <style>
+    #gameCanvas {
+      border: 5px solid black;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    }
+    #inner-canvas{
+    border-right-style: dotted;
+    border-right-color: black;
+    border-right-width: 5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%); 
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="900px" height="600px"></canvas>
+  <canvas id="inner-canvas"width="450" height="600"></canvas>
+
+<script src="main.js"></script>   
+</body>
+</html>

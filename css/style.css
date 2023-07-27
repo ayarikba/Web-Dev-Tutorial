@@ -1,0 +1,51 @@
+h1 {
+    color: red;
+    opacity: 0.5;
+}
+
+#logo {
+    color: blue;
+}
+
+.first {
+    color:coral;
+}
+
+.first, .second{
+    background-color: blanchedalmond;
+}
+
+#article.article{
+    background-color: aquamarine;
+}
+
+ul li a {
+    color: burlywood;
+}
+
+.footer span{
+    color: red;
+}
+
+/* all selected */
+* {
+    font-size: 20px;
+}
+
+.div{
+    background-size:  cover;
+    height: 640px;
+    width: 360px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("./photos/4k.jpg");
+}
+
+.div2{
+    background-image: url(./photos/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right top;
+    background-attachment: fixed;
+}
